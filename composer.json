@@ -1,0 +1,21 @@
+{
+    "name": "guid/snowflake",
+    "description": "twitter snowflake guid php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wtx",
+            "email": "503134150@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guid\\Snowflake\\": "src/Guid/Snowflake"
+        }
+    }
+}
